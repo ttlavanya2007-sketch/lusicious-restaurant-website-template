@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore all the fresh favorites on the Luscious food menu.">
+  <title>Our Full Menu — Luscious</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu-page.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <a href="index.html#home" class="logo">Luscious</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#menu">Featured Menu</a>
+      <a href="index.html#story">Our Story</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#reviews">Reviews</a>
+      <a href="index.html#contact" class="nav-btn">Contact Us</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="all-menu-hero">
+      <a class="back-link" href="index.html#menu">← Back to homepage</a>
+      <p class="mini-title">MADE WITH LOVE, SERVED FRESH</p>
+      <h1>More to love.<br><em>More to taste.</em></h1>
+      <p class="all-menu-copy">Explore all our kitchen favorites, from little bites to comforting plates and sweet finishes.</p>
+      <span class="menu-spark spark-left">✦</span>
+      <span class="menu-spark spark-right">✦</span>
+    </section>
+
+    <section class="all-menu-section" id="food-menu">
+      <div class="menu-filters" role="group" aria-label="Filter food categories">
+        <button class="filter-chip active" data-filter="all">All favourites</button>
+        <button class="filter-chip" data-filter="starters">Starters</button>
+        <button class="filter-chip" data-filter="mains">Mains</button>
+        <button class="filter-chip" data-filter="pasta">Pasta & noodles</button>
+        <button class="filter-chip" data-filter="desserts">Desserts</button>
+        <button class="filter-chip" data-filter="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-grid all-menu-grid" id="allMenuGrid">
+        <article class="menu-item reveal tilt" data-category="starters">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=90" alt="Fresh garden salad" loading="lazy"></div>
+          <h3>Garden Bowl</h3><p>Crisp greens, bright vegetables and a fresh house dressing.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="starters">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=90" alt="Steamed dumplings" loading="lazy"></div>
+          <h3>Golden Dumplings</h3><p>Hand-folded bites with fragrant herbs and a savory filling.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="starters">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=90" alt="Golden samosas" loading="lazy"></div>
+          <h3>Crispy Samosa</h3><p>Flaky golden pastry with warm spices and a cooling dip.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="starters">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=800&q=90" alt="Fresh small plates" loading="lazy"></div>
+          <h3>Little Plates</h3><p>A colorful mix of small bites made for sharing.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="mains">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=90" alt="Balanced colourful meal" loading="lazy"></div>
+          <h3>Harvest Plate</h3><p>Seasonal vegetables, grains and a generous sprinkle of herbs.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="mains">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=90" alt="Comforting egg dish" loading="lazy"></div>
+          <h3>Sunny Egg</h3><p>Soft golden egg with greens, herbs and toasted crumbs.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="mains">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=90" alt="A table full of cooked dishes" loading="lazy"></div>
+          <h3>Chef’s Table</h3><p>A satisfying plate inspired by the freshest ingredients of the day.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="mains">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=90" alt="Fresh baked pizza" loading="lazy"></div>
+          <h3>Garden Pizza</h3><p>Fresh toppings, bubbling cheese and a crisp golden base.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="pasta">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=90" alt="Fresh pasta with herbs" loading="lazy"></div>
+          <h3>Silky Pasta</h3><p>Fresh pasta folded through a creamy sauce and garden herbs.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="pasta">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=90" alt="Pasta dish" loading="lazy"></div>
+          <h3>Sunday Spaghetti</h3><p>A comforting bowl finished with herbs and a rich house sauce.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="pasta">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=90" alt="Noodles with vegetables" loading="lazy"></div>
+          <h3>House Noodles</h3><p>Wok-tossed noodles with vegetables and toasted sesame.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="pasta">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=800&q=90" alt="A bowl of noodles" loading="lazy"></div>
+          <h3>Sesame Noodles</h3><p>Springy noodles, a sesame dressing and fresh crunchy greens.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="mains">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=90" alt="Classic burger" loading="lazy"></div>
+          <h3>House Burger</h3><p>A juicy stacked favorite with crisp leaves and a soft toasted bun.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="mains">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=90" alt="Sushi rolls" loading="lazy"></div>
+          <h3>Little Sushi Rolls</h3><p>Delicate rice rolls paired with fresh, balanced flavors.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="desserts">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=90" alt="Sweet dessert with fruit" loading="lazy"></div>
+          <h3>Berry Cream Cup</h3><p>Soft cream layered with berries for a bright, sweet finish.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="desserts">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=90" alt="Chocolate cake" loading="lazy"></div>
+          <h3>Chocolate Cake</h3><p>Rich chocolate layers with a soft, decadent crumb.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="desserts">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=90" alt="Ice cream dessert" loading="lazy"></div>
+          <h3>Sweet Scoops</h3><p>Cool, creamy scoops with a sprinkle of something lovely.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="drinks">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=90" alt="Refreshing drink" loading="lazy"></div>
+          <h3>Citrus Cooler</h3><p>A bright, refreshing drink with a splash of citrus.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="drinks">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=90" alt="Cup of coffee" loading="lazy"></div>
+          <h3>Slow Coffee</h3><p>Comforting coffee made for taking your time.</p>
+        </article>
+        <article class="menu-item reveal tilt" data-category="drinks">
+          <div class="dish"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=800&q=90" alt="Fresh drink with lime" loading="lazy"></div>
+          <h3>Mint & Lime</h3><p>Fresh mint, zesty lime and an icy little refresh.</p>
+        </article>
+      </div>
+
+      <div class="menu-end-note reveal">
+        <span>✦</span><p>Good food is always better when shared.</p><span>✦</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer full-section">
+    <div class="footer-brand"><a href="index.html#home" class="logo">Luscious</a><p>Food made with love. Moments made memorable.</p></div>
+    <div><h4>Explore</h4><a href="index.html#home">Home</a><a href="index.html#story">Our Story</a><a href="index.html#gallery">Gallery</a></div>
+    <div><h4>More to explore</h4><a href="#food-menu">Full Menu</a><a href="index.html#reviews">Reviews</a><a href="index.html#contact">Contact</a></div>
+    <div><h4>Visit</h4><p>24 Garden Street</p><p>Open daily · 10 AM — 11 PM</p></div>
+  </footer>
+
+  <div class="cursor"></div>
+  <script src="script.js"></script>
+  <script>
+    // Menu category filters
+    const filterButtons = document.querySelectorAll('.filter-chip');
+    const menuCards = document.querySelectorAll('#allMenuGrid .menu-item');
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(item => item.classList.remove('active'));
+        button.classList.add('active');
+        const filter = button.dataset.filter;
+        menuCards.forEach(card => {
+          const show = filter === 'all' || card.dataset.category === filter;
+          card.hidden = !show;
+          if (show) {
+            card.classList.remove('show');
+            requestAnimationFrame(() => card.classList.add('show'));
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
